@@ -1,7 +1,6 @@
 "use client";
 
 import { cn } from "@/lib/utils";
-import { MoonIcon, SunIcon } from "lucide-react";
 // import { useTheme } from "next-themes";
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
@@ -67,9 +66,9 @@ export default function Navbar() {
         <Button className="px-4 py-2 text-white bg-[#5BB5A2] rounded-lg">
           Open Account
         </Button>
-        <Button
+        {/* <Button
           variant={"ghost"}
-          onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
+          // onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
         >
           <SunIcon
             className="
@@ -92,7 +91,7 @@ export default function Navbar() {
               dark:scale-0
               dark:rotate-0"
           />
-        </Button>
+        </Button> */}
       </div>
     </nav>
   );
