@@ -9,7 +9,7 @@ export default function FeatureChoose() {
     <div className="CustomContainer overflow-hidden flex flex-col gap-24 items-center">
       <div className="mt-40  flex flex-col items-center gap-2">
         <h4>Accounts</h4>
-        <h2 className="heading2">Choose your card.</h2>
+        <h3 className="heading3">Choose your card.</h3>
         <p className="pt-2 paragraph">
           Senectus et netus et malesuada fames ac turpis. Sagittis vitae et leo
           duis ut diam.
@@ -24,7 +24,7 @@ export default function FeatureChoose() {
             </h6>
           </div>
           <div className="flex flex-col items-center justify-center gap-2">
-            <h2 className="heading2">Free</h2>
+            <h3 className="heading3">Free</h3>
             <p className="text-[#1A191E80]  text-center paragraph">
               Lorem ipsum dolor sit amet, <br /> consectetur adipiscing elit.
             </p>
@@ -65,7 +65,7 @@ export default function FeatureChoose() {
           </div>
           <div className="flex flex-col items-center gap-2">
             <div className="flex items-end gap-2">
-              <h2 className="heading2">$5</h2>
+              <h3 className="heading3">$5</h3>
               <h6 className="text-[16px] text-[#1A191E80] ">per month</h6>
             </div>
 
@@ -110,7 +110,7 @@ export default function FeatureChoose() {
           </div>
           <div className="flex flex-col items-center gap-2">
             <div className="flex items-end gap-2">
-              <h2 className="heading2">$10</h2>
+              <h3 className="heading3">$10</h3>
               <h6 className="text-[16px] text-[#1A191E80] ">per month</h6>
             </div>
 

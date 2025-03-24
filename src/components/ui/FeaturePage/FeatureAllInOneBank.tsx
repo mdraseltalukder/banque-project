@@ -11,7 +11,7 @@ export default function FeatureAllInOneBank() {
       <hr />
       <div className="flex flex-col CustomContainer items-center gap-24 mt-[160px]">
         <div className="flex flex-col gap-4 items-center ">
-          <h2 className="heading2">All in one bank. Really.</h2>
+          <h3 className="heading3">All in one bank. Really.</h3>
           <p className="paragraph">
             Senectus et netus et malesuada fames ac turpis. Sagittis vitae et
             leo duis ut diam.

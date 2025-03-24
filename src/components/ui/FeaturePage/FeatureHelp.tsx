@@ -11,7 +11,7 @@ export default function FeatureHelp() {
   return (
     <div className="CustomContainer  flex-col sm:flex-row  flex items-start justify-between mt-40">
       <div className="flex flex-1 flex-col items-start gap-12">
-        <h2 className="heading2">Need help?</h2>
+        <h3 className="heading3">Need help?</h3>
 
         <div className="flex flex-col gap-8">
           <div className="flex items-center gap-6">

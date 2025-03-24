@@ -6,7 +6,7 @@ export default function FeatureHero() {
   return (
     <div className="bg-[#e8f2ee] dark:bg-background">
       <div className="mx-auto box-border overflow-hidden flex flex-col lg:px-0 gap-3 items-center text-center justify-center pt-[60px] lg:pt-[128px] ">
-        <h1 className="heading1  px-3">All in one card.</h1>
+        <h2 className="heading2  px-3">All in one card.</h2>
         <h4 className="heading4  px-3">
           Senectus et netus et malesuada fames ac turpis. <br /> Sagittis vitae
           et leo duis ut diam.
@@ -17,7 +17,7 @@ export default function FeatureHero() {
           </Button>
           <Button
             variant="ghost"
-            className="flex items-center gap-2 text-[#5BB5A2] hover:bg-transparent"
+            className="flex items-center gap-2 text-[#5BB5A2] hover:text-[#4ca18f] hover:bg-transparent"
           >
             Compare Cards <IoMdArrowForward />
           </Button>

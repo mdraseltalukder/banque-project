@@ -1,23 +1,23 @@
+import { Button } from "@/components/ui/button";
 import { Check } from "lucide-react";
 import Image from "next/image";
-import phone4 from "../../../../public/phone4.png";
+import notification from "../../../../public/notification.png";
 
-export default function FeatureSavings() {
+import { IoMdArrowForward } from "react-icons/io";
+
+export default function Notification() {
   return (
-    <div className="CustomContainer flex-col sm:flex-row  flex gap-10 lg:gap-[170px] mt-[160px] items-center justify-between mb-[160px]">
-      <div className="flex flex-col items-start   ">
-        <h4 className="heading4">Saving Accounts</h4>
-        <h3 className="pt-[8px] py-[16px] heading3">
-          Lorem et <br />
-          ipsum dolor
-        </h3>
-        <p className="paragraph">
+    <section className="CustomContainer flex flex-col gap-10 md:flex-row items-center justify-between md:items-end mt-40">
+      <div className="flex flex-col items-start justify-center">
+        <h4 className="heading4 mb-2">Notifications</h4>
+        <h3 className="heading3 mb-4">Stay notified</h3>
+        <p className="paragraph mb-8">
           Amet minim mollit non deserunt ullamco est sit aliqua dolor do <br />{" "}
           amet sint. Velit officia consequat duis enim velit mollit. <br />{" "}
           Exercitation veniam consequat sunt nostrud amet.
         </p>
-
-        <div className="pt-[32px] ">
+        {/* check */}
+        <div className="flex flex-col items-start gap-3 ">
           <div className="flex items-center gap-4">
             <div className="flex-shrink-0 w-6 h-6 rounded-full bg-[#E6F7F5] dark:bg-background flex items-center justify-center">
               <Check className="h-4 w-4 text-[#4ECDC4]" />
@@ -37,7 +37,7 @@ export default function FeatureSavings() {
           </div>
 
           <div className="flex items-center gap-4">
-            <div className="flex-shrink-0 w-6 h-6 rounded-full bg-[#E6F7F5] dark:bg-background flex items-center justify-center">
+            <div className="flex-shrink-0 w-6 h-6 rounded-full bg-[#E6F7F5] dark:bg-background  flex items-center justify-center">
               <Check className="h-4 w-4 text-[#4ECDC4]" />
             </div>
             <span className="text-gray-800 dark:text-foreground font-medium">
@@ -45,15 +45,20 @@ export default function FeatureSavings() {
             </span>
           </div>
         </div>
+        <Button
+          variant="ghost"
+          className="flex items-center gap-2 text-[#5BB5A2] hover:bg-transparent hover:text-[#4ca18f] mt-12 mb-6"
+        >
+          Compare Cards <IoMdArrowForward />
+        </Button>
       </div>
       <Image
-        src={phone4}
-        alt="phonecard-image"
-        className=" lg:mr-[111px] max-h-full object-cover  px-10 sm:px-0"
-        width={379}
-        height={550}
-        sizes="(min-width: 1280px) 353px, (min-width: 1040px) 28.18vw, (min-width: 800px) calc(39.55vw - 25px), (min-width: 760px) calc(-320vw + 2779px), (min-width: 640px) 50vw, (min-width: 440px) 299px, calc(85.83vw - 62px)"
+        src={notification}
+        alt="notifications "
+        width={499}
+        height={475}
+        sizes="(min-width: 1180px) 499px, (min-width: 780px) 42.11vw, (min-width: 580px) 499px, calc(95vw - 33px)"
       />
-    </div>
+    </section>
   );
 }

@@ -12,7 +12,7 @@ export default function Blogs() {
   return (
     <div className="CustomContainer">
       <div className="flex items-center justify-center my-24">
-        <h1 className="heading1">Blog</h1>
+        <h2 className="heading2">Blog</h2>
       </div>
       <div className="flex items-center justify-start gap-8 mb-16">
         <p className="paragraph">Categories</p>

@@ -6,11 +6,11 @@ export default function FeatureAdvanced() {
   return (
     <div className="CustomContainer flex flex-col sm:flex-row gap-10 lg:gap-[170px] mt-[160px] items-center justify-between ">
       <div className="flex flex-col items-start   ">
-        <h3 className="heading3 ">Advanced Statistics</h3>
-        <h2 className="pt-[8px] py-[16px] heading2">
+        <h4 className="heading4 ">Advanced Statistics</h4>
+        <h3 className="pt-[8px] py-[16px] heading3">
           Keep control <br />
           over your money
-        </h2>
+        </h3>
         <p className="paragraph">
           Amet minim mollit non deserunt ullamco est sit aliqua dolor do <br />{" "}
           amet sint. Velit officia consequat duis enim velit mollit. <br />{" "}
@@ -18,7 +18,7 @@ export default function FeatureAdvanced() {
         </p>
 
         <div className="pt-[32px] ">
-          <div className="flex items-center gap-2">
+          <div className="flex items-center gap-4">
             <div className="flex-shrink-0 w-6 h-6 rounded-full bg-[#E6F7F5] dark:bg-background  flex items-center justify-center">
               <Check className="h-4 w-4 text-[#4ECDC4]" />
             </div>
@@ -27,7 +27,7 @@ export default function FeatureAdvanced() {
             </span>
           </div>
 
-          <div className="flex items-center gap-2">
+          <div className="flex items-center gap-4">
             <div className="flex-shrink-0 w-6 h-6 rounded-full bg-[#E6F7F5] dark:bg-background flex items-center justify-center">
               <Check className="h-4 w-4 text-[#4ECDC4]" />
             </div>
@@ -36,7 +36,7 @@ export default function FeatureAdvanced() {
             </span>
           </div>
 
-          <div className="flex items-center gap-2">
+          <div className="flex items-center gap-4">
             <div className="flex-shrink-0 w-6 h-6 rounded-full bg-[#E6F7F5] dark:bg-background flex items-center justify-center">
               <Check className="h-4 w-4 text-[#4ECDC4]" />
             </div>

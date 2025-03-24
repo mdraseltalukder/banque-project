@@ -132,17 +132,20 @@
 }
 @layer components {
   .CustomContainer {
-    @apply mx-auto box-border overflow-hidden px-3;
+    @apply mx-auto box-border overflow-hidden px-6;
     max-width: var(--container-custom);
   }
   .heading1 {
-    @apply text-[50px] md:text-[65px] lg:text-[80px] font-[500] leading-tight tracking-[-0.03em];
+    @apply text-[60px] md:text-[80px] lg:text-[100px] font-medium leading-[1.10] tracking-[-0.03em];
   }
   .heading2 {
-    @apply text-[36px] md:text-[55px] lg:text-[64px] font-[500] leading-tight tracking-[-0.03em];
+    @apply text-[50px] md:text-[65px] lg:text-[80px] font-[500] leading-[1.10] tracking-[-0.03em];
+  }
+  .heading3 {
+    @apply text-[36px] md:text-[55px] lg:text-[64px] font-[500] leading-[1.10] tracking-[-0.03em];
   }
   .heading4 {
-    @apply text-[20px]  font-[500] leading-tight tracking-[-0.03em];
+    @apply text-[20px] text-[#1A191E]  font-[500];
   }
   .heading5 {
     @apply text-[18px]  font-[500];
