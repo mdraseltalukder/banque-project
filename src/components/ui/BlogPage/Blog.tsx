@@ -5,8 +5,8 @@ import blog4 from "../../../../public/blog4.png";
 import blog5 from "../../../../public/blog5.png";
 import blog6 from "../../../../public/blog6.png";
 
-import Image from "next/image";
 import { Button } from "@/components/ui/button";
+import Image from "next/image";
 
 export default function Blogs() {
   return (
@@ -14,7 +14,7 @@ export default function Blogs() {
       <div className="flex items-center justify-center my-24">
         <h2 className="heading2">Blog</h2>
       </div>
-      <div className="flex items-center justify-start gap-8 mb-16">
+      <div className="flex items-center justify-start gap-8 ">
         <p className="paragraph">Categories</p>
         <div className="flex items-center gap-4 text-[#1A191E] py-1 px-2.5">
           <Button className="bg-[#F8F8F8] hover:bg-[#d8d7d7] text-[#1A191E]">
@@ -32,16 +32,19 @@ export default function Blogs() {
         </div>
       </div>
       {/* blogs */}
-      <div className="container mx-auto px-4  mb-24">
+      <div className="container mx-auto px-4  ">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-          <div className=" flex flex-col items-start gap-6 mb-16">
-            <div className="w-full">
+          <div className=" flex flex-col items-start gap-6 mt-16 blog ">
+            <div className="w-full blog-img relative">
               <Image
                 src={blog1}
                 alt="blog-image"
+                width={378}
+                height={378}
                 placeholder="blur"
-                className="w-full"
-              ></Image>
+                className="w-full "
+              />
+              <div className="blog-overlay"></div>
             </div>
             <div className="flex flex-col items-start gap-6">
               <div className="flex flex-col items-start gap-2">
@@ -64,14 +67,15 @@ export default function Blogs() {
               </div>
             </div>
           </div>
-          <div className=" flex flex-col items-start gap-6 mb-16">
-            <div className="w-full">
+          <div className=" flex flex-col items-start gap-6 mt-16 blog">
+            <div className="w-full blog-img">
               <Image
                 src={blog2}
                 alt="blog-image"
                 placeholder="blur"
-                className="w-full"
-              ></Image>
+                className="w-full "
+              />{" "}
+              <div className="blog-overlay"></div>
             </div>
 
             <div className="flex flex-col items-start gap-6">
@@ -92,14 +96,17 @@ export default function Blogs() {
               </div>
             </div>
           </div>
-          <div className=" flex flex-col items-start gap-6 mb-16">
-            <div className="w-full">
+          <div className=" flex flex-col items-start gap-6 mt-16 blog">
+            <div className="w-full blog-img">
               <Image
                 src={blog3}
                 alt="blog-image"
                 placeholder="blur"
-                className="w-full"
-              ></Image>
+                className="w-full "
+                width={378}
+                height={378}
+              />
+              <div className="blog-overlay"></div>
             </div>
             <div className="flex flex-col items-start gap-6">
               <div className="flex flex-col items-start gap-2">
@@ -122,14 +129,17 @@ export default function Blogs() {
               </div>
             </div>
           </div>
-          <div className=" flex flex-col items-start gap-6 mb-16">
-            <div className="w-full">
+          <div className=" flex flex-col items-start gap-6 mt-16 blog">
+            <div className="w-full blog-img">
               <Image
                 src={blog4}
                 alt="blog-image"
                 placeholder="blur"
-                className="w-full"
-              ></Image>
+                className="w-full "
+                width={378}
+                height={378}
+              />
+              <div className="blog-overlay"></div>
             </div>
             <div className="flex flex-col items-start gap-6">
               <div className="flex flex-col items-start gap-2">
@@ -152,14 +162,17 @@ export default function Blogs() {
               </div>
             </div>
           </div>
-          <div className=" flex flex-col items-start gap-6 mb-16">
-            <div className="w-full">
+          <div className=" flex flex-col items-start gap-6 mt-16 blog">
+            <div className="w-full blog-img">
               <Image
                 src={blog5}
                 alt="blog-image"
                 placeholder="blur"
-                className="w-full"
-              ></Image>
+                className="w-full "
+                width={378}
+                height={378}
+              />
+              <div className="blog-overlay"></div>
             </div>
             <div className="flex flex-col items-start gap-6">
               <div className="flex flex-col items-start gap-2">
@@ -179,14 +192,17 @@ export default function Blogs() {
               </div>
             </div>
           </div>
-          <div className=" flex flex-col items-start gap-6 mb-16">
-            <div className="w-full">
+          <div className=" flex flex-col items-start gap-6 mt-16 blog">
+            <div className="w-full blog-img">
               <Image
                 src={blog6}
                 alt="blog-image"
                 placeholder="blur"
-                className="w-full"
+                className="w-full "
+                width={378}
+                height={378}
               ></Image>
+              <div className="blog-overlay"></div>
             </div>
             <div className="flex flex-col items-start gap-6">
               <div className="flex flex-col items-start gap-2">

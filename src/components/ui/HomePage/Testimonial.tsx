@@ -9,6 +9,14 @@ export default function Testimonial() {
       author: "Cody Fisher",
       position: "Medical Assistant",
     },
+
+    {
+      title: "Elit aute irure tempor cupidatat incididunt",
+      content:
+        "Aliqua id fugiat nostrud irure ex duis ea quis id quis ad et. Sunt qui esse pariatur duis deserunt mollit dolore cillum minim tempor enim. Est aute irure tempor cupidatat incididunt sint deserunt ut voluptate aute id deserunt nisi.",
+      author: "Guy Hawkins",
+      position: "President of Sales",
+    },
     {
       title: "At lectus urna duis convallis tellus",
       content: (
@@ -22,13 +30,6 @@ export default function Testimonial() {
       ),
       author: "Jenny Wilson",
       position: "Nursing Assistant",
-    },
-    {
-      title: "Elit aute irure tempor cupidatat incididunt",
-      content:
-        "Aliqua id fugiat nostrud irure ex duis ea quis id quis ad et. Sunt qui esse pariatur duis deserunt mollit dolore cillum minim tempor enim. Est aute irure tempor cupidatat incididunt sint deserunt ut voluptate aute id deserunt nisi.",
-      author: "Guy Hawkins",
-      position: "President of Sales",
     },
     {
       title: "Sunt qui esse pariatur duis deserunt mollit",
@@ -75,10 +76,10 @@ export default function Testimonial() {
           </div>
         </div>
       </div>
-      <div className="grid grid-cols-2 md:grid-cols-3 items-start gap-8 ">
+      <div className=" testimonial-column ">
         {testimonials.map((testimonial, index) => (
           <div
-            className="flex flex-col items-start justify-center p-8 bg-white rounded-xl border border-gray-100  shadow-sm hover:shadow-md transition-shadow"
+            className="flex flex-col items-start justify-center p-8 bg-white rounded-xl border border-gray-100  shadow-sm hover:shadow-md transition-shadow mb-8 testimonial-card"
             key={index}
           >
             <div className="flex items-center gap-1 mb-2">

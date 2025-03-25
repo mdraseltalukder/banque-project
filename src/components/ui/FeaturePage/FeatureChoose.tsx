@@ -35,22 +35,35 @@ export default function FeatureChoose() {
               <Image src={wifi} alt="wifi icon" width={24} height={24}></Image>
             </div>
             <div className=" mb-[22px]">
-              <Image src={fontText} alt=" text image"></Image>
+              <Image
+                src={fontText}
+                alt=" text image"
+                width={294}
+                height={17}
+              ></Image>
             </div>
-            <div className="flex items-start gap-28">
+            <div className="flex items-center gap-28">
               <div className="flex items-start gap-9">
                 <div className="flex flex-col gap-[2.5px] items-start">
-                  <h6 className="text-[8.5px] text-[#FFFFFF]">Card Holder</h6>
-                  <h6 className="text-[12.8px] ">John Doe</h6>
+                  <h6 className="text-[8.5px] text-[#FFFFFF]">
+                    Card&nbsp;Holder
+                  </h6>
+                  <h6 className="text-[12.8px] ">John&nbsp;Doe</h6>
                 </div>
                 <div className="flex flex-col gap-[2.5px] items-start">
-                  <h6 className="text-[8.5px] text-[#FFFFFF]">Expiry Date</h6>
+                  <h6 className="text-[8.5px] text-[#FFFFFF]">
+                    Expiry&nbsp;Date
+                  </h6>
                   <h6 className="text-[12.8px] ">09/28</h6>
                 </div>
               </div>
-              <div>
-                <Image src={mastercard} alt="mastercard"></Image>
-              </div>
+
+              <Image
+                src={mastercard}
+                alt="mastercard"
+                width={52}
+                height={35.5}
+              />
             </div>
           </div>
 
@@ -80,22 +93,30 @@ export default function FeatureChoose() {
               <Image src={wifi} alt="wifi icon" width={24} height={24}></Image>
             </div>
             <div className=" mb-[22px]">
-              <Image src={fontText} alt=" text image"></Image>
+              <Image
+                src={fontText}
+                alt=" text image"
+                width={294}
+                height={17}
+              ></Image>
             </div>
-            <div className="flex items-start gap-28">
+            <div className="flex items-center gap-28">
               <div className="flex items-start gap-9">
                 <div className="flex flex-col gap-[2.5px] items-start">
-                  <h6 className="text-[8.5px] text-[#FFFFFF]">Card Holder</h6>
-                  <h6 className="text-[12.8px] ">John Doe</h6>
+                  <h6 className="text-[8.5px] text-[#FFFFFF]">
+                    Card&nbsp;Holder
+                  </h6>
+                  <h6 className="text-[12.8px] ">John&nbsp;Doe</h6>
                 </div>
                 <div className="flex flex-col gap-[2.5px] items-start">
-                  <h6 className="text-[8.5px] text-[#FFFFFF]">Expiry Date</h6>
+                  <h6 className="text-[8.5px] text-[#FFFFFF]">
+                    Expiry&nbsp;Date
+                  </h6>
                   <h6 className="text-[12.8px] ">09/28</h6>
                 </div>
               </div>
-              <div>
-                <Image src={visa} alt="mastercard"></Image>
-              </div>
+
+              <Image src={visa} alt="mastercard" width={52} height={35.5} />
             </div>
           </div>
 
@@ -124,22 +145,35 @@ export default function FeatureChoose() {
               <Image src={wifi} alt="wifi icon" width={24} height={24}></Image>
             </div>
             <div className=" mb-[22px]">
-              <Image src={fontText} alt=" text image"></Image>
+              <Image
+                src={fontText}
+                alt=" text image"
+                width={294}
+                height={17}
+              ></Image>
             </div>
-            <div className="flex items-start gap-28">
+            <div className="flex items-center gap-28">
               <div className="flex items-start gap-9">
                 <div className="flex flex-col gap-[2.5px] items-start">
-                  <h6 className="text-[8.5px] text-[#FFFFFF]">Card Holder</h6>
-                  <h6 className="text-[12.8px] ">John Doe</h6>
+                  <h6 className="text-[8.5px] text-[#FFFFFF]">
+                    Card&nbsp;Holder
+                  </h6>
+                  <h6 className="text-[12.8px] ">John&nbsp;Doe</h6>
                 </div>
                 <div className="flex flex-col gap-[2.5px] items-start">
-                  <h6 className="text-[8.5px] text-[#FFFFFF]">Expiry Date</h6>
+                  <h6 className="text-[8.5px] text-[#FFFFFF]">
+                    Expiry&nbsp;Date
+                  </h6>
                   <h6 className="text-[12.8px] ">09/28</h6>
                 </div>
               </div>
-              <div>
-                <Image src={mastercard} alt="mastercard"></Image>
-              </div>
+
+              <Image
+                src={mastercard}
+                alt="mastercard"
+                width={52}
+                height={35.5}
+              />
             </div>
           </div>
 
