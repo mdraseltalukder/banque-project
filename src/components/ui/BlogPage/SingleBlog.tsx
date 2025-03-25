@@ -13,7 +13,7 @@ export default function SingleBlog() {
     <>
       <section className="mt-24 mb-40 ">
         <div className="max-w-[1000px] mx-auto box-border overflow-hidden px-6 flex flex-col items-center justify-center gap-16 ">
-          <div className=" flex flex-col items-center justify-center gap-4">
+          <div className=" flex flex-col items-center justify-center text-center gap-4">
             <span className="text-[13px] text-[#5BB5A2] bg-[#E8F2EE] py-1 px-2.5">
               App
             </span>
