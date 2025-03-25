@@ -14,21 +14,20 @@ export default function Navbar() {
   console.log(pathname);
 
   const navigator = [
-    
     {
-      name: "features",
+      name: "Features",
       href: "/feature",
     },
     {
-      name: "compare",
+      name: "Compare",
       href: "/compare",
     },
     {
-      name: "support",
+      name: "Support",
       href: "/support",
     },
     {
-      name: "blog",
+      name: "Blog",
       href: "/blog",
     },
   ];

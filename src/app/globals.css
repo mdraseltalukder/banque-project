@@ -159,7 +159,7 @@
     @apply text-[36px] md:text-[55px] lg:text-[64px] font-[500] leading-[1.10] tracking-[-3%];
   }
   .heading4 {
-    @apply text-[20px] text-[#1A191E];
+    @apply text-[20px] font-medium text-[#1A191E];
   }
   .heading5 {
     @apply text-[18px]  font-[500];
