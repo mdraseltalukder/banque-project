@@ -58,7 +58,7 @@ export default function SavingAccounts() {
           </span>
         </Button>
       </div>
-      <div className="grid grid-cols-3 md:flex justify-between items-star t gap-[33px]">
+      <div className="grid grid-cols-3 md:flex justify-between items-start gap-[33px]">
         {features.map((feature, index) => (
           <div key={index} className="flex flex-col items-start">
             <Image

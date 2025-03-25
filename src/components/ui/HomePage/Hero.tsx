@@ -13,7 +13,7 @@ export default function Hero() {
             <h1 className="heading1 mb-4">
               Banking <br /> starts here.
             </h1>
-            <p className="text-[24px]  font-[500] leading-tight tracking-[-0.03em] mb-8">
+            <p className="text-[24px]  font-[500] text-[#1A191E] leading-tight tracking-[-3%] mb-8">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore.
             </p>
@@ -24,7 +24,7 @@ export default function Hero() {
                   <div className="flex-shrink-0 w-6 h-6 rounded-full bg-[#5BB5A2] dark:bg-background flex items-center justify-center">
                     <Check className="h-4 w-4 text-[#ffffff]" />
                   </div>
-                  <span className="text-gray-800 dark:text-foreground font-medium">
+                  <span className="text-[#1A191E] dark:text-foreground font-medium">
                     Instant Transfer
                   </span>
                 </div>
@@ -32,7 +32,7 @@ export default function Hero() {
                   <div className="flex-shrink-0 w-6 h-6 rounded-full bg-[#5BB5A2] dark:bg-background flex items-center justify-center">
                     <Check className="h-4 w-4 text-[#ffffff]" />
                   </div>
-                  <span className="text-gray-800 dark:text-foreground font-medium">
+                  <span className="text-[#1A191E] dark:text-foreground font-medium">
                     Saving accounts
                   </span>
                 </div>
@@ -43,7 +43,7 @@ export default function Hero() {
                   <div className="flex-shrink-0 w-6 h-6 rounded-full bg-[#5BB5A2] dark:bg-background flex items-center justify-center">
                     <Check className="h-4 w-4 text-[#ffffff]" />
                   </div>
-                  <span className="text-gray-800 dark:text-foreground font-medium">
+                  <span className="text-[#1A191E] dark:text-foreground font-medium">
                     Payments worldwide
                   </span>
                 </div>{" "}
@@ -51,7 +51,7 @@ export default function Hero() {
                   <div className="flex-shrink-0 w-6 h-6 rounded-full bg-[#5BB5A2] dark:bg-background flex items-center justify-center">
                     <Check className="h-4 w-4 text-[#ffffff]" />
                   </div>
-                  <span className="text-gray-800 dark:text-foreground font-medium">
+                  <span className="text-[#1A191E] dark:text-foreground font-medium">
                     100% mobile banking
                   </span>
                 </div>

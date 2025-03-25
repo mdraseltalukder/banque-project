@@ -20,7 +20,7 @@ export default function Tools() {
               Seemless <br />
               integration
             </h3>
-            <p className="paragraph mb-8">
+            <p className="paragraph mb-8 lg:mb-0">
               Amet minim mollit non deserunt ullamco est sit aliqua dolor do{" "}
               <br />
               amet sint. Velit officia consequat duis enim velit mollit.

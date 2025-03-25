@@ -13,8 +13,8 @@ export default function FeatureAllInOneBank() {
         <div className="flex flex-col gap-4 items-center ">
           <h3 className="heading3">All in one bank. Really.</h3>
           <p className="paragraph">
-            Senectus et netus et malesuada fames ac turpis. Sagittis vitae et
-            leo duis ut diam.
+            Senectus et netus et malesuada fames ac turpis. <br /> Sagittis
+            vitae et leo duis ut diam.
           </p>
         </div>
         <div>
