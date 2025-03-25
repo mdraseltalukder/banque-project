@@ -1,4 +1,11 @@
 import Image from "next/image";
+import Link from "next/link";
+import {
+  FaFacebook,
+  FaInstagram,
+  FaLinkedin,
+  FaTwitter,
+} from "react-icons/fa6";
 import compare from "../../../../public/compare.png";
 
 export default function SingleBlog() {
@@ -65,6 +72,50 @@ export default function SingleBlog() {
               pellentesque eu tincidunt tortor. Ultrices vitae auctor eu augue
               ut lectus arcu bibendum.
             </p>
+          </div>
+          <div className="flex flex-col items-center justify-center gap-4">
+            <p className="paragraph">Share article</p>
+            <div className="flex items-center gap-4">
+              <Link
+                href="https://twitter.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center justify-center w-10 h-10 rounded-full bg-gray-100 hover:bg-gray-200 transition-colors"
+                aria-label="Visit our Twitter page"
+              >
+                <FaTwitter size={20} />
+              </Link>
+
+              <Link
+                href="https://facebook.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center justify-center w-10 h-10 rounded-full bg-gray-100 hover:bg-gray-200 transition-colors"
+                aria-label="Visit our Facebook page"
+              >
+                <FaFacebook size={20} />
+              </Link>
+
+              <Link
+                href="https://linkedin.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center justify-center w-10 h-10 rounded-full bg-gray-100 hover:bg-gray-200 transition-colors"
+                aria-label="Visit our LinkedIn page"
+              >
+                <FaLinkedin size={20} />
+              </Link>
+
+              <Link
+                href="https://instagram.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center justify-center w-10 h-10 rounded-full bg-gray-100 hover:bg-gray-200 transition-colors"
+                aria-label="Visit our Instagram page"
+              >
+                <FaInstagram size={20} />
+              </Link>
+            </div>
           </div>
         </div>
       </section>
