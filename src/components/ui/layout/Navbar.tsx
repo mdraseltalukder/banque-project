@@ -14,10 +14,7 @@ export default function Navbar() {
   console.log(pathname);
 
   const navigator = [
-    {
-      name: "Home",
-      href: "/",
-    },
+    
     {
       name: "features",
       href: "/feature",
