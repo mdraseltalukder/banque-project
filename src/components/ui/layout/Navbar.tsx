@@ -8,7 +8,7 @@ import { useEffect, useRef, useState } from "react";
 
 export default function Navbar() {
   const [isToggleOpen, setIsToggleOpen] = useState(false);
-  const navbarRef = useRef(null);
+  const navbarRef = useRef<HTMLDivElement>(null);
 
   const pathname = usePathname();
   console.log(pathname);
@@ -36,10 +36,10 @@ export default function Navbar() {
     },
   ];
   useEffect(() => {
-    const handleClickOutside = (event) => {
+    const handleClickOutside = (e: MouseEvent) => {
       if (
         navbarRef.current &&
-        !navbarRef.current.contains(event.target as Node) &&
+        !navbarRef.current.contains(e.target as Node) &&
         isToggleOpen
       ) {
         setIsToggleOpen(false);
