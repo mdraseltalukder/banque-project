@@ -35,7 +35,12 @@ export default function FeatureChoose() {
               <Image src={wifi} alt="wifi icon" width={24} height={24}></Image>
             </div>
             <div className=" mb-[22px]">
-              <Image src={fontText} alt=" text image"></Image>
+              <Image
+                src={fontText}
+                alt=" text image"
+                width={294}
+                height={17}
+              ></Image>
             </div>
             <div className="flex items-start gap-28">
               <div className="flex items-start gap-9">
@@ -49,7 +54,12 @@ export default function FeatureChoose() {
                 </div>
               </div>
               <div>
-                <Image src={mastercard} alt="mastercard"></Image>
+                <Image
+                  src={mastercard}
+                  alt="mastercard"
+                  width={52}
+                  height={35.5}
+                ></Image>
               </div>
             </div>
           </div>
@@ -80,7 +90,12 @@ export default function FeatureChoose() {
               <Image src={wifi} alt="wifi icon" width={24} height={24}></Image>
             </div>
             <div className=" mb-[22px]">
-              <Image src={fontText} alt=" text image"></Image>
+              <Image
+                src={fontText}
+                alt=" text image"
+                width={294}
+                height={17}
+              ></Image>
             </div>
             <div className="flex items-start gap-28">
               <div className="flex items-start gap-9">
@@ -94,7 +109,12 @@ export default function FeatureChoose() {
                 </div>
               </div>
               <div>
-                <Image src={visa} alt="mastercard"></Image>
+                <Image
+                  src={visa}
+                  alt="mastercard"
+                  width={52}
+                  height={35.5}
+                ></Image>
               </div>
             </div>
           </div>
@@ -124,7 +144,12 @@ export default function FeatureChoose() {
               <Image src={wifi} alt="wifi icon" width={24} height={24}></Image>
             </div>
             <div className=" mb-[22px]">
-              <Image src={fontText} alt=" text image"></Image>
+              <Image
+                src={fontText}
+                alt=" text image"
+                width={294}
+                height={17}
+              ></Image>
             </div>
             <div className="flex items-start gap-28">
               <div className="flex items-start gap-9">
@@ -138,7 +163,12 @@ export default function FeatureChoose() {
                 </div>
               </div>
               <div>
-                <Image src={mastercard} alt="mastercard"></Image>
+                <Image
+                  src={mastercard}
+                  alt="mastercard"
+                  width={52}
+                  height={35.5}
+                ></Image>
               </div>
             </div>
           </div>

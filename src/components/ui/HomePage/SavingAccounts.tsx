@@ -2,10 +2,8 @@ import { Button } from "@/components/ui/button";
 import Image from "next/image";
 import { FaArrowRightLong } from "react-icons/fa6";
 import frame1 from "../../../../public/Frame1.png";
-import {
-  default as frame2,
-  default as frame3,
-} from "../../../../public/Frame3.png";
+import frame2 from "../../../../public/frame2.png";
+import frame3 from "../../../../public/Frame3.png";
 import frame4 from "../../../../public/Frame4.png";
 import frame5 from "../../../../public/Frame5.png";
 

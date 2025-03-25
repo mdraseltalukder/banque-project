@@ -1,5 +1,5 @@
-import { Check } from "lucide-react";
 import Image from "next/image";
+import { FaCheck } from "react-icons/fa6";
 import tool from "../../../../public/tools.png";
 
 export default function Tools() {
@@ -16,19 +16,22 @@ export default function Tools() {
         <div className=" flex flex-col items-start gap-5 md:flex-row justify-between md:items-end ">
           <div className="flex flex-1 flex-col items-start justify-center">
             <h4 className="heading4 mb-2">Tools</h4>
-            <h3 className="heading3 mb-4">integration</h3>
+            <h3 className="heading3 mb-4">
+              Seemless <br />
+              integration
+            </h3>
             <p className="paragraph mb-8">
               Amet minim mollit non deserunt ullamco est sit aliqua dolor do{" "}
               <br />
               amet sint. Velit officia consequat duis enim velit mollit.
             </p>
           </div>
-          {/* check */}
+          {/* FaCheck */}
           <div className="flex flex-1 flex-col items-center justify-center">
-            <div className="flex  flex-col items-start justify-center gap-3 ">
+            <div className="flex  flex-col items-start justify-center gap-4 ">
               <div className="flex items-center gap-4">
                 <div className="flex-shrink-0 w-6 h-6 rounded-full bg-[#E6F7F5] dark:bg-background flex items-center justify-center">
-                  <Check className="h-4 w-4 text-[#4ECDC4]" />
+                  <FaCheck className="h-4 w-4 text-[#4ECDC4]" />
                 </div>
                 <span className="text-gray-800 dark:text-foreground font-medium">
                   Malesuada Ipsum
@@ -37,7 +40,7 @@ export default function Tools() {
 
               <div className="flex items-center gap-4">
                 <div className="flex-shrink-0 w-6 h-6 rounded-full bg-[#E6F7F5] dark:bg-background flex items-center justify-center">
-                  <Check className="h-4 w-4 text-[#4ECDC4]" />
+                  <FaCheck className="h-4 w-4 text-[#4ECDC4]" />
                 </div>
                 <span className="text-gray-800 dark:text-foreground font-medium">
                   Vestibulum
@@ -46,7 +49,7 @@ export default function Tools() {
 
               <div className="flex items-center gap-4">
                 <div className="flex-shrink-0 w-6 h-6 rounded-full bg-[#E6F7F5] dark:bg-background  flex items-center justify-center">
-                  <Check className="h-4 w-4 text-[#4ECDC4]" />
+                  <FaCheck className="h-4 w-4 text-[#4ECDC4]" />
                 </div>
                 <span className="text-gray-800 dark:text-foreground font-medium">
                   Parturient Lorem
