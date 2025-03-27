@@ -1,7 +1,7 @@
+import notification from "@/../public/notification.png";
 import { Button } from "@/components/ui/button";
 import { Check } from "lucide-react";
 import Image from "next/image";
-import notification from "../../../../public/notification.png";
 
 import { IoMdArrowForward } from "react-icons/io";
 

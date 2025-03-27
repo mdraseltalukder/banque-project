@@ -1,6 +1,6 @@
+import phone2 from "@/../public/phone2.png";
 import { Check } from "lucide-react";
 import Image from "next/image";
-import phone2 from "../../../../public/phone2.png";
 
 export default function FeatureManageCard() {
   return (

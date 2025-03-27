@@ -1,9 +1,9 @@
+import blog1 from "@/../public/blog1.png";
+import blog2 from "@/../public/blog2.png";
+import blog3 from "@/../public/blog3.png";
 import { Button } from "@/components/ui/button";
 import Image from "next/image";
 import { FaArrowRight } from "react-icons/fa6";
-import blog1 from "../../../../public/blog1.png";
-import blog2 from "../../../../public/blog2.png";
-import blog3 from "../../../../public/blog3.png";
 
 export default function HomeBlog() {
   return (

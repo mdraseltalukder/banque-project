@@ -1,6 +1,6 @@
+import phone4 from "@/../public/phone4.png";
 import { Check } from "lucide-react";
 import Image from "next/image";
-import phone4 from "../../../../public/phone4.png";
 
 export default function FeatureSavings() {
   return (

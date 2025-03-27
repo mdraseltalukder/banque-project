@@ -1,6 +1,6 @@
+import transection from "@/../public/transactions.png";
 import { Check } from "lucide-react";
 import Image from "next/image";
-import transection from "../../../../public/transactions.png";
 
 export default function Transection() {
   return (

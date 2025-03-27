@@ -1,6 +1,6 @@
+import perfectCard from "@/../public/perfectCard.png";
 import { Button } from "@/components/ui/button";
 import Image from "next/image";
-import perfectCard from "../../../../public/perfectCard.png";
 
 export default function PerfectCard() {
   return (

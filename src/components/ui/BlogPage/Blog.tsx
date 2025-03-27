@@ -1,10 +1,10 @@
+import blog1 from "@/../public/blog1.png";
+import blog2 from "@/../public/blog2.png";
+import blog3 from "@/../public/blog3.png";
+import blog4 from "@/../public/blog4.png";
+import blog5 from "@/../public/blog5.png";
+import blog6 from "@/../public/blog6.png";
 import { MdArrowOutward } from "react-icons/md";
-import blog1 from "../../../../public/blog1.png";
-import blog2 from "../../../../public/blog2.png";
-import blog3 from "../../../../public/blog3.png";
-import blog4 from "../../../../public/blog4.png";
-import blog5 from "../../../../public/blog5.png";
-import blog6 from "../../../../public/blog6.png";
 
 import { Button } from "@/components/ui/button";
 import Image from "next/image";

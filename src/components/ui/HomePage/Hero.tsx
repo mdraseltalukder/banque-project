@@ -2,7 +2,7 @@ import { Button } from "@/components/ui/button";
 import { Check } from "lucide-react";
 import { IoMdArrowForward } from "react-icons/io";
 import Image from "next/image";
-import card from "../../../../public/homeCard.png";
+import card from "@/../public/homeCard.png";
 
 export default function Hero() {
   return (

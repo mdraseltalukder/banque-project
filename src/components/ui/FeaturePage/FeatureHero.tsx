@@ -1,7 +1,7 @@
+import cards from "@/../public/cards.png";
+import { Button } from "@/components/ui/button";
 import Image from "next/image";
 import { IoMdArrowForward } from "react-icons/io";
-import cards from "../../../../public/cards.png";
-import { Button } from "@/components/ui/button";
 export default function FeatureHero() {
   return (
     <div className="bg-[#e8f2ee] dark:bg-background">

@@ -1,7 +1,7 @@
+import apple from "@/../public/apple.png";
+import card6 from "@/../public/card6.png";
 import { Check } from "lucide-react";
 import Image from "next/image";
-import apple from "../../../../public/apple.png";
-import card6 from "../../../../public/card6.png";
 
 export default function FeatureBanking() {
   return (

@@ -1,6 +1,6 @@
+import phone1 from "@/../public/phone1.png";
 import { Check } from "lucide-react";
 import Image from "next/image";
-import phone1 from "../../../../public/phone1.png";
 
 export default function FeatureTransactions() {
   return (

@@ -1,3 +1,4 @@
+import compare from "@/../public/compare.png";
 import Image from "next/image";
 import Link from "next/link";
 import {
@@ -6,7 +7,6 @@ import {
   FaLinkedin,
   FaTwitter,
 } from "react-icons/fa6";
-import compare from "../../../../public/compare.png";
 
 export default function SingleBlog() {
   return (

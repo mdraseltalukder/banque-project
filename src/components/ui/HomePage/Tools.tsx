@@ -1,6 +1,6 @@
+import tool from "@/../public/tools.png";
 import Image from "next/image";
 import { FaCheck } from "react-icons/fa6";
-import tool from "../../../../public/tools.png";
 
 export default function Tools() {
   return (

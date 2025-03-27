@@ -1,6 +1,5 @@
+import compareCard from "@/../public/compareherocard.png";
 import Image from "next/image";
-import React from "react";
-import compareCard from "../../../../public/compareherocard.png";
 
 export default function CompareHero() {
   return (

@@ -1,8 +1,8 @@
+import fontText from "@/../public/FontText.png";
+import mastercard from "@/../public/mastercard.png";
+import visa from "@/../public/visa.png";
+import wifi from "@/../public/wifi.png";
 import Image from "next/image";
-import fontText from "../../../../public/FontText.png";
-import mastercard from "../../../../public/mastercard.png";
-import visa from "../../../../public/visa.png";
-import wifi from "../../../../public/wifi.png";
 
 export default function FeatureChoose() {
   return (
