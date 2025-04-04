@@ -1,14 +1,14 @@
+import card from "@/../public/homeCard.png";
 import { Button } from "@/components/ui/button";
 import { Check } from "lucide-react";
-import { IoMdArrowForward } from "react-icons/io";
 import Image from "next/image";
-import card from "@/../public/homeCard.png";
+import { IoMdArrowForward } from "react-icons/io";
 
 export default function Hero() {
   return (
     <>
       <section className="bg-[#E8F2EE]">
-        <div className="CustomContainer flex items-center justify-between py-[60px] lg:py-[128px] overflow-hidden lg:gap-[164px]">
+        <div className="CustomContainer flex flex-col md:flex-row gap-10 md:gap-0 items-center justify-between py-[60px] lg:py-[128px] overflow-hidden lg:gap-[164px]">
           <div className="flex flex-col items-start justify-start ">
             <h1 className="heading1 mb-4">
               Banking <br /> starts here.
@@ -18,8 +18,8 @@ export default function Hero() {
               eiusmod tempor incididunt ut labore.
             </p>
             {/* check */}
-            <div className="flex items-start gap-20 mb-16">
-              <div className="flex flex-col items-center justify-center gap-4">
+            <div className="flex items-start gap-20 mb-4  md:mb-16">
+              <div className="flex flex-col items-start justify-start gap-4">
                 <div className="flex items-center gap-2">
                   <div className="flex-shrink-0 w-6 h-6 rounded-full bg-[#5BB5A2] dark:bg-background flex items-center justify-center">
                     <Check className="h-4 w-4 text-[#ffffff]" />
@@ -38,7 +38,7 @@ export default function Hero() {
                 </div>
               </div>
 
-              <div className="flex flex-col items-center justify-center gap-4">
+              <div className="flex flex-col items-start justify-start gap-4">
                 <div className="flex items-center gap-2">
                   <div className="flex-shrink-0 w-6 h-6 rounded-full bg-[#5BB5A2] dark:bg-background flex items-center justify-center">
                     <Check className="h-4 w-4 text-[#ffffff]" />
